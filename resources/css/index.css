@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 1.375rem;
+    color: seashell;
+    margin: 0;
+    text-align: center;
+}
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.125rem;
+    max-height: 6.125rem;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position:fixed;
+}
+header img {
+    height: 3.125rem;
+    width: auto;
+    padding-left: 0.625rem;
+}
+nav {
+    display: flex;
+    text-align: right;
+}
+nav span {
+    padding: 1.25rem 0.625rem;
+}
+nav span a {
+    color: seashell;
+}
+.main{
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.jumbotron {
+    margin: 3rem;
+    display: flex;
+    height: 43.75rem;
+    width: 75rem;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.25rem;
+}
+.jumbotron-container {
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.store {
+    
+    width: 62.5rem;
+    height: auto;
+    text-align: center;
+    padding-top: 4.375rem;
+}
+.store-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.store-container figure {
+    margin: 0.625rem
+}
+.store-container figure img {
+    display: inline-block;
+    height: 12.5rem;
+    width: 18.75rem;
+}
+.locations {
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    height: 31.25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3rem;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.location-container {
+    display: flex;
+    background-color: black;
+    width: 18.75rem;
+    height: auto;
+    text-align: center;
+    flex-direction: column; 
+    margin: 0.9375rem 2.5rem;
+}
